@@ -25,6 +25,7 @@ public class ObjectManager : MonoBehaviour
 
 	//Factories will only be available serverside, referencing from client will return null exception
 	public static ClothFactory clothFactory { get; private set; }
+	public static BoxFactory boxFactory { get; private set; }
 
 	//Server only
 	public static void StartPoolManager()
